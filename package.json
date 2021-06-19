@@ -2,9 +2,11 @@
   "name": "scrap-cybersport",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scrap.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scrap"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/kerlon5/scrap-cybersport/issues"
   },
-  "homepage": "https://github.com/kerlon5/scrap-cybersport#readme"
+  "homepage": "https://github.com/kerlon5/scrap-cybersport#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
 }
